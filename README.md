@@ -96,6 +96,26 @@ This project was more than just writing a policy — it was a **hands-on experie
 
 ---
 
+## 🔧 Areas for Future Improvement  
+
+While this project provided a strong foundation in secure coding and policy development, there are several areas I plan to improve on moving forward:  
+
+- **Unit Testing and Validation**: I did not fully implement unit tests for this project. Adding automated unit tests for secure coding standards (e.g., integer conversion handling, buffer management) would ensure continuous validation and catch regressions early in development. Incorporating test-driven development (TDD) principles would strengthen both code reliability and policy enforcement.  
+
+- **Deeper Integration of Automation**: Although static analysis and compiler warnings were considered, future work should involve full integration of automated tools into a CI/CD pipeline. This would allow every code change to be scanned for compliance with coding standards before deployment.  
+
+- **Concurrency and Exception Handling**: These areas were identified as gaps in the current policy:contentReference[oaicite:0]{index=0}. Strengthening concurrency controls (e.g., thread safety, atomic operations) and implementing more robust exception-handling guidelines would help prevent runtime instability and resource leaks.  
+
+- **Dependency Monitoring**: Modern software often relies on third-party libraries. Automating dependency scanning to detect known vulnerabilities (via tools like Snyk, OWASP Dependency-Check, or GitHub Dependabot) would close an important gap in the current security posture.  
+
+- **Expanding Threat Intelligence Usage**: Moving forward, I want to integrate real-world threat intelligence feeds into policy review cycles. This would ensure that the policy adapts to new vulnerabilities and attack vectors rather than remaining static.  
+
+- **Hands-On Enforcement and Auditing**: While the policy outlined audit controls and governance, future projects should demonstrate a working enforcement system with role-based logging, incident monitoring, and compliance reporting.  
+
+By addressing these areas, I can move from building strong theoretical frameworks toward delivering fully tested, automated, and enforceable secure systems.  
+
+---
+
 ## 🌟 Portfolio Reflection  
 
 This project highlights my ability to:  
